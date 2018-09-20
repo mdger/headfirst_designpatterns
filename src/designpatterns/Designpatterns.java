@@ -15,6 +15,9 @@ public class Designpatterns {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Float yoyo = 1.0f;
+        
+        if (yoyo != null)
+            System.out.println(yoyo);
     }
-    
 }

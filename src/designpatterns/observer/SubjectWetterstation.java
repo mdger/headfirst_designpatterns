@@ -7,8 +7,6 @@ package designpatterns.observer;
 public class SubjectWetterstation 
     extends Subject
 {
-    private Wetterdaten wetterdaten;
-
     /**
      * 
      * @param wetterdaten
@@ -16,7 +14,7 @@ public class SubjectWetterstation
      */
     
     public SubjectWetterstation(Wetterdaten wetterdaten) {
-        this.wetterdaten = wetterdaten;
+        getObserverData().put(SubjectTypes.TYPE_WETTERDATEN, wetterdaten);
     }    
 
     /**
@@ -24,6 +22,6 @@ public class SubjectWetterstation
      */
 
     public void setWetterdaten(Wetterdaten wetterdaten) {
-        this.wetterdaten = wetterdaten;
+        getObserverData().put(SubjectTypes.TYPE_WETTERDATEN, wetterdaten);
     }
 }

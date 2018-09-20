@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/SubjectWetterstation.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/Wetterdaten.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/SubjectTypes.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/ObserverAktuelleBedingungen.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/Subject.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/test/designpatterns/decorator/text/TextPlainTest.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/src/designpatterns/observer/ObserverVorhersage.java</file>
+            <file>file:/E:/_repositories/headfirst_designpatterns/test/designpatterns/observer/SubjectWetterstationTest.java</file>
+        </group>
+    </open-files>
+</project-private>

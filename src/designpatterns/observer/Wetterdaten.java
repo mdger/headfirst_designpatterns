@@ -6,53 +6,36 @@ package designpatterns.observer;
 
 public class Wetterdaten 
 {
-    /** @var float */
     private float temperatur;    
-    
-    /** @var float */
     private float feuchtigkeit;    
-    
-    /** @var float */
-    private float  luftdruck;
-    
-    /**
-     * @param feuchtigkeit the feuchtigkeit to set
-     */
-    public void setFeuchtigkeit(float feuchtigkeit) {
-        this.feuchtigkeit = feuchtigkeit;
-    }
+    private float luftdruck;
 
     /**
-     * @param luftdruck the luftdruck to set
+     * @param temperatur
+     * @param feuchtigkeit
+     * @param luftdruck 
      */
-    public void setLuftdruck(float luftdruck) {
+    public Wetterdaten(float temperatur, float feuchtigkeit, float luftdruck) {
+        this.temperatur = temperatur;
+        this.feuchtigkeit = feuchtigkeit;
         this.luftdruck = luftdruck;
     }
 
-    /**
-     * @param temperatur the temperatur to set
-     */
-    public void setTemperatur(float temperatur) {
-        this.temperatur = temperatur;
+    @Override
+    public String toString() {
+        return "Aktuelle Temperatur: " + temperatur 
+            + " Aktuelle Luftfeuchtigkeit: " + feuchtigkeit 
+            + " Aktueller Luftdruck: " + luftdruck;
     }
 
-    /**
-     * @return the feuchtigkeit
-     */
     public float getFeuchtigkeit() {
         return feuchtigkeit;
     }
 
-    /**
-     * @return the luftdruck
-     */
     public float getLuftdruck() {
         return luftdruck;
     }
 
-    /**
-     * @return the temperatur
-     */
     public float getTemperatur() {
         return temperatur;
     }
